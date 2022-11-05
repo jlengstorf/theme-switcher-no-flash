@@ -1,3 +1,13 @@
+/*
+ * =========================================================
+ *  🎨 define color schemes
+ *
+ *  These variables are everything required to theme this
+ *. site. The `data-theme` declarations are the only thing
+ *  to worry about in this tutorial — the rest is cosmetic.
+ * =========================================================
+ */
+
 html[data-theme='default'],
 html[data-theme='light'] {
   --color-bg: #fcfaff;
@@ -46,6 +56,15 @@ html[data-theme='pink'] {
   --color-text-heading: hsla(var(--color-hue) 90% 60% / 1);
   --color-text-muted: hsla(var(--color-hue) 40% 45% / 1);
 }
+
+/*
+ * =========================================================
+ *  🛠 site styles
+ *
+ *  Everything below this point is cosmetic and doesn’t
+ *  have any material impact on the tutorial.
+ * =========================================================
+ */
 
 * {
   box-sizing: border-box;
@@ -108,6 +127,7 @@ header nav a:last-child {
 }
 
 main {
+  /* give ’em the claaaamps! https://i.imgur.com/rdIwEF9.gif */
   font-size: clamp(0.875rem, 2.75vw, 1rem);
   margin: 3rem auto 0;
   width: min(34rem, 90vw);

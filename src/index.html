@@ -1,12 +1,13 @@
 <!DOCTYPE html>
+<!--     ℹ️ this is the important thing -->
+<!--            ⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄    -->
 <html lang="en" data-theme="default">
+  <!--          ^^^^^^^^^^^^^^^^^^^^    -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      About the CSS Theme Switcher With No Flash — HTML Only Example
-    </title>
+    <title>CSS Theme Switcher With No Flash — HTML Only Example</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -20,10 +21,7 @@
 
     <main>
       <section>
-        <h1>
-          It’s not impossible to avoid the dark mode flash in a color theme
-          switcher
-        </h1>
+        <h1>A CSS theme Switcher with no flash</h1>
       </section>
 
       <aside>
@@ -40,38 +38,35 @@
       </aside>
 
       <section>
-        <p class="current-theme"></p>
         <p>
-          Theme switchers are a popular way to allow your site’s visitors to
-          customize their experience, but if there’s a “theme selector”, a flash
-          of the wrong theme will show up when the user has chosen a theme
-          that’s not the default.
+          This site is an example of how a CSS-based color theme switcher can
+          work without any flash on first load.
         </p>
-        <p>This has been considered unfixable on the frontend:</p>
-        <blockquote>
-          <q
-            >I’m not convinced there is a good way to avoid [flash of inaccurate
-            color theme] without a server-side language or force-delayed page
-            renders.</q
-          >
-          <cite
-            ><a
-              href="https://css-tricks.com/flash-of-inaccurate-color-theme-fart/"
-              >Chris Coyier</a
-            ></cite
-          >
-        </blockquote>
-
         <p>
-          However, with the introduction of
+          It’s powered by
           <a href="https://docs.netlify.com/edge-functions/overview/"
             >Netlify Edge Functions</a
-          >, we can implement a CSS-based theme switcher that doesn’t suffer
-          from the flash of inaccurate color theme and doesn’t require deploying
-          a server. This site, for example, is plain HTML with no build system
-          or backend.
+          >, cookies, and plain ol’ CSS.
+          <strong>There is no client-side JavaScript in this example.</strong>
         </p>
       </section>
+
+      <!-- TODO build other examples
+        <aside>
+          <h2>Other Examples</h2>
+          <ul>
+            <li>
+              <a href="#">Next.js Color Theme Switcher</a>
+            </li>
+            <li>
+              <a href="#">Astro Color Theme Switcher</a>
+            </li>
+            <li>
+              <a href="#">React Color Theme Switcher</a>
+            </li>
+          </ul>
+        </aside>
+      -->
     </main>
 
     <footer>
