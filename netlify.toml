@@ -1,2 +1,6 @@
-[build]
-  publish = "src"
+  [build]
+    publish = "src"
+
+  [[edge_functions]]
+    path = "/*"
+    function = "color-theme"
