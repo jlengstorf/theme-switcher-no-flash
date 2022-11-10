@@ -1,5 +1,7 @@
 # HTML-only CSS color theme switcher with no flash of the wrong theme
 
+> **NOTE:** The working demo is [on the `complete` branch](https://github.com/jlengstorf/theme-switcher-no-flash/tree/complete)
+
 Building a CSS-powered theme switcher that allows the user to choose their own theme _and_ doesn’t have a flash when the user chooses a non-default theme has previously required either server rendering or some kind of delayed display with client-side JavaScript.
 
 
